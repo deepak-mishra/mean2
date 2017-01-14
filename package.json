@@ -1,0 +1,46 @@
+{
+  "name": "deepak-mishra",
+  "version": "1.0.0",
+  "description": "Seed App for Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"nodemon app.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "Deepak Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.2",
+    "@angular/compiler": "^2.4.2",
+    "@angular/core": "^2.4.2",
+    "@angular/forms": "^2.4.2",
+    "@angular/http": "^2.4.2",
+    "@angular/platform-browser": "^2.4.2",
+    "@angular/platform-browser-dynamic": "^2.4.2",
+    "@angular/router": "^3.4.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "es6-shim": "^0.35.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.3",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.4"
+  }
+}
